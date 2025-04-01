@@ -2,37 +2,30 @@
 <!DOCTYPE social-network SYSTEM "social-network.dtd">
 <social-network>
     <users>
-        <user id="user-1" name="Jean Marc" email="jm@example.com">
+        <user id="user1" name="Jean Marc" email="jm@example.com">
             <description>
                 Ma Bio!
                 Blablabla
             </description>
         </user>
-        <user id="user-2" name="Tom"></user>
     </users>
     <posts>
-        <post id="post-1" owner="user-1" parent="">
+        <post id="post-1" owner="user1">
             <content>
                 Mon post!
                 blabla
             </content>
             <likes>
-                <like id="like-user-1" user="user-1">
-                </like>
-                <like id="like-user-2" user="user-2">
-                </like>
+                <like id="like-user1-post1" user="user1"/>
             </likes>
         </post>
-        <post id="post-2" owner="user-1" parent="">
+        <post id="post-2" owner="user1">
             <content>
                 Mon post!
                 blabla
             </content>
             <likes>
-                <like id="like-user-1" user="user-1">
-                </like>
-                <like id="like-user-2" user="user-2">
-                </like>
+                <like id="like-user1-post2" user="user1" />
             </likes>
         </post>
     </posts>
